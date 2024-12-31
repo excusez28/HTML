@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /* attribute selector */
+
+    a:hover {
+        color: rgb(3, 177, 41);
+    }
+
+    /* child selector */
+    ul>li {
+        font-weight: bold;
+    }
+
+    /* n-th child */
+    ul li:nth-child(3){
+        background-color: rgb(212, 212, 240);
+    }
+
+    /* Sibling selector */
+    h1 + strong {
+        background-color: black;
+    }
+
+    ul li:hover{
+        color: blue;
+    }
+
+    /* :: before pseudo selector */
+    ul li::before {
+        content: "🌌"
+    }
+
+     /* :: after pseudo selector */
+      a::after {
+        content: "🚀"
+    }
+
+    /* :: first-letter pseudo selector */
+        p::first-letter {
+        font-size: 200%;
+        color: rgb(206, 84, 84);
+
+    }
+
+
+  </style>
+    <title>Space explorer webpage</title>
+</head>
+    <body style="background-color: rgb(188, 188, 238)">
+   
+    <h1 style="color: rgb(30, 78, 62)">Welcome back to our <i style="color:rgb(66, 116, 99)">Space explorer webpage</i></h1>
+
+    <i>Works that will be done here,are~</i>
+
+    <ul>
+        <li><strong>Mars rovers</strong>
+        <li><strong>International space station</strong>
+        <li><strong>Moon missions</strong>
+        <li><strong>Black hole mysteries</strong>
+        <li><strong>Telescopes & stars</strong>
+
+    </ul>
+
+    <br>
+    <p><strong>Space is the area<mark>beyond the upper limits of Earth’s atmosphere, where all of the celestial bodies in our
+            universe are
+            found12. Space is an almost perfect vacuum, meaning it contains very little matter and has extremely</mark><i>
+            low pressure.</i></strong>
+    <br></p>
+        <img src="Universe.jpeg" height="200px">
+        <img src="space.jpg" height="200px">
+        <br></br>
+    <a href="https://www.space.com/24870-what-is-space.html">SPACE</a>
+    <br>
+    <a href="https://ninovalib.com/en/what-is-space/">UNIVERSAL SPACE</a>
+
+    
+</body>
+</html>
