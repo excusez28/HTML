@@ -2,28 +2,57 @@
 <html lang="en">
 <head>
 
-<style>
-       #grad1 {
-        background: linear-gradient(yellow,red);
+    <style>
+        ul>li {
+            font-weight: bold;
+        }
+
+        p::first-letter {
+        font-size: 200%;
+        color: blue;
+
     }
-</style>
+         /* :: first-letter pseudo selector */
+        h3::first-letter {
+        font-size: 200%;
+        color: rgb(14, 68, 14);
+
+    }
+        ul li:nth-child(3){
+        background-color: rgb(135, 197, 138);
+    }
+
+    ul li:nth-child(5){
+        background-color: rgb(135, 197, 138);
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    ul li:hover{
+        color: blue;
+    } 
+
+   
+
+
+    </style>
+
+   
+
 
     <title>SCHOOL WEBPAGE</title>
 </head>
-<body>
+<body style="background-color: rgb(199, 223, 201);" >
 
 
-    <H1 style="color: blue;">VIQARUNNISA NOON SCHOOL & COLLEGE</H1>
+    <H1 style="color: rgb(16, 16, 180);">VIQARUNNISA NOON SCHOOL & COLLEGE</H1>
 
     <img src="VNSC.jpg" height="200px" alt="Shinchan">
 
-    <h3 style="color: green;">Viqarunnisa Noon School & College is an all-girls educational institute in Baily Road, Dhaka, Bangladesh. It has 4
-    campuses and around 25,000 students. Viqarunnisa Noon School & College is one of the renowned educational institutes in
-    Bangladesh. We consider every child as unique and so we maintain inclusive learning-teaching environment at every step
-    in our great set-up. It is a fact now that our results are getting better in the public examinations every time. It has
-    been made possible through our extensive and effective care stretched out to every individual student. Our students
-    conglomerate here from multifarious backgrounds; various strata of the society. They enter the threshold of our strong
-    and fortified home of learning and come out bearing an all-round personality.</h3>
+    <p><h3 style="color: rgb(35, 102, 35);">Viqarunnisa Noon School & College is an <i style="color: black;">all-girls educational institute in Baily Road, Dhaka, Bangladesh</i>. It has 4 campuses and around <mark style="color: rgb(40, 64, 172)">25,000 students</mark>. Viqarunnisa Noon School & College is <em style="color:rgb(47, 121, 121)">one of the renowned educational institutes in Bangladesh</em>. We consider every child as unique and so we maintain inclusive learning-teaching environment at every step
+    in our great set-up. <i style="background-color: rgb(192, 238, 230);">It is a fact now that our results are getting better in the public examinations every time </i>. It has been made possible through our <i style="color: rgb(141, 54, 127)">extensive and effective care stretched out to every individual student</i>. Our students conglomerate here from multifarious backgrounds; various strata of the society. <i><strong style="background-color: bisque;">They enter the threshold of our strong and fortified home of learning and come out bearing an all-round personality</strong></i>.</h3></p>
 
    
     
@@ -94,9 +123,9 @@
 
 
 
-
+    <div id="grad1"></div>
     </br>
     
-    <div id="grad1"></div>
+    
 </body>
 </html>
