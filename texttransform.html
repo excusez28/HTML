@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decoration</title>
+    <style>
+        .text2 {
+            color: blue;
+            font-size: 30px;
+            font-family: arial;
+        }
+
+        h2 {
+            text-decoration: line-through;
+            text-transform: uppercase;
+        }
+         h3 {
+            text-decoration: overline;
+            text-transform: lowercase;
+        }
+        h4 {
+            text-decoration: underline;
+            text-transform: capitalize;
+        }
+         h5 {
+            text-decoration: underline overline;
+            text-transform: none;
+        }
+
+        #text {
+            text-shadow: 1px 2px 1px blueviolet;
+        }
+
+        #box {
+            box-shadow: 9px 9px 1px;
+        }
+
+        #indent {
+            text-indent: -50%; 
+        }
+
+        *{
+            text-align: center;
+            font-family: arial;
+            font-size: 20px;
+        }
+        #indent2{
+            text-indent: 70%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="text2">Everything looks fine right now</h1>
+    <h2>She looks so happy</h2>
+    <h3>He looks so happy</h3>
+    <h4>They looks so happy</h4>
+    <h5>We are looked so happy</h5>
+
+    <strong id="text">She is buying a flower right now</strong><br></br>
+    <i id="box">They are buying a flower right now</i><br></br>
+    <em id="indent2">Hello everyone</em><br>
+    <em id="indent">Hey there</em>
+</body>
+</html>
